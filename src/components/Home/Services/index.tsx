@@ -35,7 +35,7 @@ const Services = () => {
           </div>
           <div>
             <div className="relative rounded-2xl overflow-hidden group h-[250px] sm:h-[350px] md:h-[400px]">
-              <Link href="/residential-homes" className="block w-full h-full">
+              <Link href="/3d-modeling" className="block w-full h-full">
                 <Image
                   src="/images/9q2Je2qe2.png"
                   alt="electronics development"
@@ -47,7 +47,7 @@ const Services = () => {
               </Link>
               <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/0 to-black/95 pointer-events-none"></div>
               <Link
-                href="/residential-homes"
+                href="/3d-modeling"
                 className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 lg:p-10 flex flex-col gap-2 sm:gap-3 group-hover:gap-3 sm:group-hover:gap-4 transition-all duration-300"
               >
                 <div className="flex items-start justify-between gap-2">
@@ -72,7 +72,7 @@ const Services = () => {
           </div>
           <div>
             <div className="relative rounded-2xl overflow-hidden group h-[250px] sm:h-[350px] md:h-[400px]">
-              <Link href="/luxury-villa" className="block w-full h-full">
+              <Link href="/electronika" className="block w-full h-full">
                 <Image
                   src="/images/2qej2j1i2e.png"
                   alt="software development"
@@ -84,7 +84,7 @@ const Services = () => {
               </Link>
               <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/0 to-black/95 pointer-events-none"></div>
               <Link
-                href="/luxury-villa"
+                href="/electronika"
                 className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 lg:p-10 flex flex-col gap-2 sm:gap-3 group-hover:gap-3 sm:group-hover:gap-4 transition-all duration-300"
               >
                 <div className="flex items-start justify-between gap-2">
@@ -109,7 +109,7 @@ const Services = () => {
           </div>
           <div className="col-span-1">
             <div className="relative rounded-2xl overflow-hidden group h-[250px] sm:h-[350px] md:h-[400px]">
-              <Link href="/appartment" className="block w-full h-full">
+              <Link href="/prototipirovanie" className="block w-full h-full">
                 <Image
                   src="/images/012ibej1kb2aw&.png"
                   alt="pcb production"
@@ -121,7 +121,7 @@ const Services = () => {
               </Link>
               <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/0 to-black/95 pointer-events-none"></div>
               <Link
-                href="/appartment"
+                href="/prototipirovanie"
                 className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 lg:p-10 flex flex-col gap-2 sm:gap-3 group-hover:gap-3 sm:group-hover:gap-4 transition-all duration-300"
               >
                 <div className="flex items-start justify-between gap-2">
