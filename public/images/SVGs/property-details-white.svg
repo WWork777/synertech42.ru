@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <!-- Технические характеристики: Печатная плата (белая версия) -->
+  <g stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Основа платы -->
+    <rect x="4" y="6" width="24" height="20" rx="2" fill="none"/>
+    
+    <!-- Микросхема (центр) -->
+    <rect x="11" y="11" width="10" height="10" rx="1" fill="none"/>
+    
+    <!-- Контакты микросхемы (ножки) -->
+    <line x1="11" y1="13" x2="8" y2="13" stroke-width="1.5"/>
+    <line x1="11" y1="16" x2="8" y2="16" stroke-width="1.5"/>
+    <line x1="11" y1="19" x2="8" y2="19" stroke-width="1.5"/>
+    
+    <line x1="21" y1="13" x2="24" y2="13" stroke-width="1.5"/>
+    <line x1="21" y1="16" x2="24" y2="16" stroke-width="1.5"/>
+    <line x1="21" y1="19" x2="24" y2="19" stroke-width="1.5"/>
+    
+    <!-- Резисторы -->
+    <rect x="6" y="8" width="3" height="1.5" rx="0.3" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="6" y="23" width="3" height="1.5" rx="0.3" fill="#FFFFFF" opacity="0.7"/>
+    
+    <!-- Конденсаторы -->
+    <circle cx="24.5" cy="9" r="1.2" fill="none" stroke-width="1.5"/>
+    <circle cx="24.5" cy="24" r="1.2" fill="none" stroke-width="1.5"/>
+    
+    <!-- Дорожки (traces) -->
+    <path d="M 9 13 L 11 13" stroke-width="1.2" opacity="0.6"/>
+    <path d="M 9 16 L 11 16" stroke-width="1.2" opacity="0.6"/>
+    <path d="M 21 16 L 23 16" stroke-width="1.2" opacity="0.6"/>
+    
+    <!-- Переходные отверстия (vias) -->
+    <circle cx="7" cy="21" r="0.8" fill="#07be8a"/>
+    <circle cx="25" cy="21" r="0.8" fill="#07be8a"/>
+    <circle cx="16" cy="23.5" r="0.8" fill="#07be8a"/>
+  </g>
+</svg>

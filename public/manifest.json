@@ -1,0 +1,71 @@
+{
+  "name": "SINERTEK Electronics - Прикладное оборудование",
+  "short_name": "SINERTEK",
+  "description": "Разработка и производство измерительного оборудования, автономных датчиков и промышленных систем управления",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#E83C39",
+  "orientation": "portrait-primary",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "/favicon-16x16.svg",
+      "sizes": "16x16",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity",
+    "utilities"
+  ],
+  "shortcuts": [
+    {
+      "name": "Портфолио проектов",
+      "short_name": "Портфолио",
+      "description": "Просмотр выполненных проектов",
+      "url": "/properties",
+      "icons": [
+        {
+          "src": "/icon.svg",
+          "sizes": "64x64",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Связаться с нами",
+      "short_name": "Контакты",
+      "description": "Связь со специалистами SINERTEK",
+      "url": "/contactus",
+      "icons": [
+        {
+          "src": "/icon.svg",
+          "sizes": "64x64",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
+

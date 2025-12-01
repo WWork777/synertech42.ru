@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- 3D-моделирование: Изометрический куб с сеткой -->
+  <g stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Изометрический куб -->
+    <path d="M 24 8 L 38 16 L 38 32 L 24 40 L 10 32 L 10 16 Z" fill="none"/>
+    
+    <!-- Вертикальные линии -->
+    <line x1="24" y1="8" x2="24" y2="24"/>
+    <line x1="10" y1="16" x2="24" y2="24"/>
+    <line x1="38" y1="16" x2="24" y2="24"/>
+    
+    <!-- Сетка на гранях -->
+    <line x1="17" y1="12" x2="17" y2="20" opacity="0.4"/>
+    <line x1="31" y1="12" x2="31" y2="20" opacity="0.4"/>
+    <line x1="14" y1="22" x2="14" y2="30" opacity="0.4"/>
+    <line x1="34" y1="22" x2="34" y2="30" opacity="0.4"/>
+    
+    <!-- Горизонтальные линии сетки -->
+    <line x1="13" y1="18" x2="21" y2="22" opacity="0.4"/>
+    <line x1="27" y1="22" x2="35" y2="18" opacity="0.4"/>
+    <line x1="13" y1="26" x2="21" y2="30" opacity="0.4"/>
+    <line x1="27" y1="30" x2="35" y2="26" opacity="0.4"/>
+    
+    <!-- Осевые стрелки (X, Y, Z) -->
+    <path d="M 24 40 L 24 44 M 22 42 L 24 44 L 26 42" stroke="#07be8a" stroke-width="1.5"/>
+    <path d="M 38 32 L 42 34 M 40 32 L 42 34 L 40 36" stroke="#07be8a" stroke-width="1.5"/>
+    <path d="M 10 32 L 6 34 M 8 32 L 6 34 L 8 36" stroke="#07be8a" stroke-width="1.5"/>
+    
+    <!-- Центральная точка -->
+    <circle cx="24" cy="24" r="2" fill="#0066FF"/>
+  </g>
+</svg>

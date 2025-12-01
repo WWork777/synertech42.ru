@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- Прототипирование: 3D-принтер/холодное литье -->
+  <g stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Рама принтера -->
+    <rect x="8" y="10" width="32" height="28" rx="1" fill="none"/>
+    
+    <!-- Печатающая головка -->
+    <rect x="18" y="14" width="12" height="6" rx="1" fill="none"/>
+    
+    <!-- Сопло -->
+    <path d="M 22 20 L 22 24 L 24 26 L 26 24 L 26 20" fill="none" stroke-width="1.8"/>
+    <circle cx="24" cy="26" r="1" fill="#07be8a"/>
+    
+    <!-- Направляющие -->
+    <line x1="10" y1="12" x2="10" y2="36"/>
+    <line x1="38" y1="12" x2="38" y2="36"/>
+    
+    <!-- Платформа -->
+    <rect x="12" y="32" width="24" height="2" rx="0.5" fill="none"/>
+    
+    <!-- Печатаемая деталь -->
+    <path d="M 18 28 L 18 32 L 30 32 L 30 28 L 26 28 L 26 30 L 22 30 L 22 28 Z" fill="#07be8a" opacity="0.4" stroke-width="1.5"/>
+    
+    <!-- Слои печати (линии) -->
+    <line x1="20" y1="30" x2="28" y2="30" opacity="0.6" stroke-width="1"/>
+    <line x1="19" y1="31" x2="29" y2="31" opacity="0.4" stroke-width="1"/>
+    
+    <!-- Экструдируемый материал (капли) -->
+    <circle cx="24" cy="27" r="0.6" fill="#0066FF" opacity="0.7"/>
+    <circle cx="23" cy="27.5" r="0.4" fill="#0066FF" opacity="0.5"/>
+    <circle cx="25" cy="27.5" r="0.4" fill="#0066FF" opacity="0.5"/>
+    
+    <!-- Катушка материала -->
+    <circle cx="36" cy="20" r="4" fill="none" stroke-width="1.5"/>
+    <circle cx="36" cy="20" r="2" fill="none" stroke-width="1"/>
+    
+    <!-- Провод от катушки -->
+    <path d="M 32 20 Q 28 18, 26 16" stroke-dasharray="2,2" opacity="0.5"/>
+    
+    <!-- Панель управления -->
+    <rect x="10" y="38" width="8" height="5" rx="0.5" fill="none" stroke-width="1.5"/>
+    <circle cx="12" cy="40.5" r="0.5" fill="#07be8a"/>
+    <circle cx="14" cy="40.5" r="0.5" fill="#0066FF" opacity="0.5"/>
+    <line x1="11" y1="42" x2="15" y2="42" stroke-width="0.8"/>
+  </g>
+</svg>
