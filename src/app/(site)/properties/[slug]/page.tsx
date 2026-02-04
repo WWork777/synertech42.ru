@@ -1,6 +1,5 @@
 'use client'
 import { propertyHomes } from '@/app/api/propertyhomes'
-import { testimonials } from '@/app/api/testimonial'
 import Map from '@/components/Home/Map'
 import { Icon } from '@iconify/react'
 import Image from 'next/image'
@@ -31,7 +30,7 @@ export default function Details() {
 							</p>
 						</div>
 					</div>
-					<div className='lg:col-span-4 col-span-12'>
+					{/* <div className='lg:col-span-4 col-span-12'>
 						<div className='flex gap-6'>
 							<div className='flex flex-col gap-2 border-e border-black/10 dark:border-white/20 pr-2 xs:pr-4 mobile:pr-6 flex-shrink-0'>
 								<Icon
@@ -67,7 +66,7 @@ export default function Details() {
 								</p>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div className='grid grid-cols-12 mt-8 gap-8'>
 					<div className='lg:col-span-8 col-span-12 row-span-2'>
@@ -124,10 +123,10 @@ export default function Details() {
 				<div className='grid grid-cols-12 gap-8 mt-10'>
 					<div className='lg:col-span-8 col-span-12'>
 						<h3 className='text-xl font-medium'>Задачи проекта</h3>
-						<div className='py-8 my-8 border-y border-dark/10 dark:border-white/20 flex flex-col gap-8'>
+						<div className='py-8 my-8 border-y border-dark/10 dark:border-white/20 flex flex-col gap-4'>
 							{item?.tasks?.map((task, i) => (
 								<div key={i} className='flex items-center gap-6'>
-									{/* <div>
+									<div>
 										<Image
 											src={task.src1}
 											width={400}
@@ -144,9 +143,9 @@ export default function Details() {
 											className='w-8 h-8 dark:block hidden'
 											unoptimized={true}
 										/>
-									</div> */}
+									</div>
 									<div>
-										<h3 className='text-dark dark:text-white text-xm'>
+										<h3 className='text-dark dark:text-white text-xm leading-5'>
 											{task.title}
 										</h3>
 										{/* <p className='text-base text-dark/50 dark:text-white/50'>
@@ -239,16 +238,16 @@ export default function Details() {
 						</div>
 						<div className='py-8 mt-8 border-t border-dark/5 dark:border-white/15'>
 							<h3 className='text-xl font-medium'>Технические особенности</h3>
-							<div className='grid grid-cols-3 mt-5 gap-6'>
+							<div className='grid md:grid-cols-3 mt-5 gap-4'>
 								{item?.technical?.map((tech, i) => (
 									<div key={i} className='flex items-center gap-2.5'>
-										{/* <Icon
+										<Icon
 											icon={tech.src}
 											width={24}
 											height={24}
-											className='text-dark dark:text-white'
-										/> */}
-										<p className='text-base dark:text-white text-dark'>
+											className='text-dark dark:text-white min-w-[24px]'
+										/>
+										<p className='text-base dark:text-white text-dark leading-5'>
 											{tech.title}
 										</p>
 									</div>
@@ -343,7 +342,7 @@ export default function Details() {
 								/>
 							</div>
 						</div>
-						{testimonials.slice(0, 1).map((item, index) => (
+						{/* {testimonials.slice(0, 1).map((item, index) => (
 							<div
 								key={index}
 								className='border p-10 rounded-2xl border-dark/10 dark:border-white/20 mt-10 flex flex-col gap-6'
@@ -376,7 +375,7 @@ export default function Details() {
 									</div>
 								</div>
 							</div>
-						))}
+						))} */}
 					</div>
 				</div>
 			</div>

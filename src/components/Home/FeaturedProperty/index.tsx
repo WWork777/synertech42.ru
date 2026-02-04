@@ -412,6 +412,31 @@ const FeaturedProperty: React.FC = () => {
 						</div>
 					</div>
 					<div className='flex flex-col gap-6 sm:gap-8 md:gap-10 justify-center'>
+						<div className='flex-1'>
+							<div className='flex items-center gap-1 pb-3'>
+								<Icon
+									icon={'ph:cpu-fill'}
+									width={18}
+									height={18}
+									className='text-primary sm:w-5 sm:h-5'
+								/>
+								<p className='text-xs sm:text-sm md:text-base font-semibold text-dark/75'>
+									Избранный проект
+								</p>
+							</div>
+							<h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-52 font-medium text-dark leading-6 sm:leading-12 mb-4'>
+								{currentItem.name}
+							</h1>
+							{currentItem.description?.map((item, i) => (
+								<p
+									key={i}
+									className='text-dark/65 text-xs sm:text-sm md:text-base pb-1'
+								>
+									{item}
+								</p>
+							))}
+						</div>
+
 						<div className='flex flex-col gap-4 sm:gap-6'>
 							{/* Используем currentItem для ссылки */}
 							<Link
