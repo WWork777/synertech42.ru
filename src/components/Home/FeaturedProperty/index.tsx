@@ -224,10 +224,16 @@ import Link from 'next/link'
 import * as React from 'react'
 
 const FeaturedProperty: React.FC = () => {
+	const filteredArray = propertyHomes.filter(
+		item =>
+			item.slug === 'datchik-timer' ||
+			item.slug === 'kamera-knt-270' ||
+			item.slug === 'pult-du',
+	)
 	const [api, setApi] = React.useState<CarouselApi | undefined>(undefined)
 	const [current, setCurrent] = React.useState(0)
 	const [count, setCount] = React.useState(0)
-	const [currentItem, setCurrentItem] = React.useState(propertyHomes[0]) // Добавляем состояние для текущего элемента
+	const [currentItem, setCurrentItem] = React.useState(filteredArray[0]) // Добавляем состояние для текущего элемента
 
 	React.useEffect(() => {
 		if (!api) {
@@ -238,7 +244,7 @@ const FeaturedProperty: React.FC = () => {
 		const updateCurrent = () => {
 			const newIndex = api.selectedScrollSnap()
 			setCurrent(newIndex + 1)
-			setCurrentItem(propertyHomes[newIndex]) // Обновляем текущий элемент
+			setCurrentItem(filteredArray[newIndex]) // Обновляем текущий элемент
 		}
 
 		updateCurrent() // Инициализация при первом рендере
@@ -269,7 +275,7 @@ const FeaturedProperty: React.FC = () => {
 							}}
 						>
 							<CarouselContent>
-								{propertyHomes.slice(0, 3).map((item, index) => (
+								{filteredArray.map((item, index) => (
 									<CarouselItem key={index}>
 										<div className='rounded-xl sm:rounded-2xl w-full h-[350px] sm:h-[400px] md:h-[450px] lg:h-[530px] bg-gradient-to-br from-gray-50 to-white flex items-center justify-center relative overflow-hidden border border-gray-100 cursor-pointer'>
 											{/* Animated background pattern */}
