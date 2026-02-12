@@ -279,8 +279,13 @@ const FeaturedProperty: React.FC = () => {
 									<CarouselItem key={index}>
 										<div className='rounded-xl sm:rounded-2xl w-full h-[350px] sm:h-[400px] md:h-[450px] lg:h-[530px] bg-gradient-to-br from-gray-50 to-white flex items-center justify-center relative overflow-hidden border border-gray-100 cursor-pointer'>
 											{/* Animated background pattern */}
-											<div className='absolute inset-0 opacity-5'>
-												<svg
+											<div className='absolute inset-0 opacity-80'>
+												<img
+													src={currentItem.images[0].src}
+													alt={currentItem.name}
+													className='w-full h-full object-cover'
+												/>
+												{/* <svg
 													className='w-full h-full'
 													xmlns='http://www.w3.org/2000/svg'
 												>
@@ -337,7 +342,7 @@ const FeaturedProperty: React.FC = () => {
 														height='100%'
 														fill={`url(#circuit-${index})`}
 													/>
-												</svg>
+												</svg> */}
 											</div>
 
 											{/* Decorative circles */}
@@ -348,12 +353,12 @@ const FeaturedProperty: React.FC = () => {
 											<div className='relative z-10 flex flex-col items-center gap-8'>
 												<div className='relative'>
 													<div className='absolute inset-0 bg-primary/10 rounded-full blur-xl'></div>
-													<Icon
+													{/* <Icon
 														icon='ph:cpu-bold'
 														className='text-primary relative z-10 w-20 h-20 sm:w-[140px] sm:h-[140px]'
 														width={80}
 														height={80}
-													/>
+													/> */}
 												</div>
 
 												<div className='flex items-center gap-3 sm:gap-6'>
@@ -384,7 +389,7 @@ const FeaturedProperty: React.FC = () => {
 												</div>
 
 												<div className='text-center'>
-													<p className='text-gray-500 text-xs sm:text-sm font-medium mb-1'>
+													<p className='text-dark text-xs sm:text-sm font-semibold mb-1'>
 														{item.name.toUpperCase()}
 													</p>
 													<p className='text-dark text-xl sm:text-2xl font-semibold'>

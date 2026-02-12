@@ -1142,12 +1142,6 @@ export const propertyHomes: PropertyHomes[] = [
 			{
 				src: '/images/properties/property1/img_2.png',
 			},
-			{
-				src: '/images/properties/property1/img_2.png',
-			},
-			{
-				src: '/images/properties/property1/img_2.png',
-			},
 		],
 	},
 	{
@@ -1298,9 +1292,6 @@ export const propertyHomes: PropertyHomes[] = [
 			{
 				src: '/images/properties/property3/img_3.png',
 			},
-			{
-				src: '/images/properties/property3/img_3.png',
-			},
 		],
 	},
 	{
@@ -1380,18 +1371,8 @@ export const propertyHomes: PropertyHomes[] = [
 			{
 				src: '/images/properties/property8/img_1.png',
 			},
-			{
-				src: '/images/properties/property8/img_1.png',
-			},
-			{
-				src: '/images/properties/property8/img_1.png',
-			},
-			{
-				src: '/images/properties/property8/img_1.png',
-			},
 		],
 	},
-
 	{
 		name: 'Штамповая установка ШУСН-01-С',
 		slug: 'shtampovaya-ustanovka',
@@ -1494,9 +1475,6 @@ export const propertyHomes: PropertyHomes[] = [
 			{
 				src: '/images/properties/property2/img_3.png',
 			},
-			{
-				src: '/images/properties/property2/img_3.png',
-			},
 		],
 	},
 	{
@@ -1583,15 +1561,6 @@ export const propertyHomes: PropertyHomes[] = [
 			{
 				src: '/images/properties/property4/img_1.png',
 			},
-			{
-				src: '/images/properties/property4/img_1.png',
-			},
-			{
-				src: '/images/properties/property4/img_1.png',
-			},
-			{
-				src: '/images/properties/property4/img_1.png',
-			},
 		],
 	},
 	{
@@ -1667,15 +1636,6 @@ export const propertyHomes: PropertyHomes[] = [
 			},
 		],
 		images: [
-			{
-				src: '/images/properties/property5/img_1.png',
-			},
-			{
-				src: '/images/properties/property5/img_1.png',
-			},
-			{
-				src: '/images/properties/property5/img_1.png',
-			},
 			{
 				src: '/images/properties/property5/img_1.png',
 			},
@@ -1764,15 +1724,6 @@ export const propertyHomes: PropertyHomes[] = [
 			{
 				src: '/images/properties/property6/img_1.png',
 			},
-			{
-				src: '/images/properties/property6/img_1.png',
-			},
-			{
-				src: '/images/properties/property6/img_1.png',
-			},
-			{
-				src: '/images/properties/property6/img_1.png',
-			},
 		],
 	},
 	{
@@ -1848,12 +1799,6 @@ export const propertyHomes: PropertyHomes[] = [
 		images: [
 			{
 				src: '/images/properties/property7/img_1.png',
-			},
-			{
-				src: '/images/properties/property7/img_2.png',
-			},
-			{
-				src: '/images/properties/property7/img_2.png',
 			},
 			{
 				src: '/images/properties/property7/img_2.png',
@@ -1935,14 +1880,184 @@ export const propertyHomes: PropertyHomes[] = [
 			{
 				src: '/images/properties/property10/img_2.png',
 			},
+		],
+	},
+
+	{
+		name: 'Смарт заслон',
+		slug: 'smart-zaslon',
+		location: 'Выполнено',
+		rate: '3 месяца',
+		beds: 0,
+		baths: 0,
+		area: 0,
+		term: '3 месяца',
+		description: [
+			'Умная система контроля оконных решеток «Смарт Заслон» — это комплекс из нескольких датчиков, которые крепятся на решетку снаружи, и базовой станции, устанавливаемой внутри квартиры.',
+
+			'Разработка позволяет постоянно отслеживать состояние окон и обеспечивает безопасность детей, в том числе с особенностями развития, чьи действия могут быть непредсказуемыми. Система особенно актуальна, если ребенка опасно оставлять в комнате с приоткрытыми или полностью открытыми окнами.',
+			'При любом воздействии на решетку (как снаружи, так и изнутри) на смартфон владельца мгновенно поступает уведомление и телефонный звонок. Если датчиков установлено несколько, в оповещении будет указано, какое именно окно было затронуто.',
+		],
+		tasks: [
 			{
-				src: '/images/properties/property10/img_2.png',
+				title: 'Разработка концепта устройств',
+				src1: '/images/SVGs/property-details.svg',
+				src2: '/images/SVGs/property-details-white.svg',
+			},
+
+			{
+				title: 'Проектирование корпуса',
+				src1: '/images/SVGs/smart-home-access.svg',
+				src2: '/images/SVGs/smart-home-access-white.svg',
+			},
+
+			{
+				title:
+					'Разработка уникального магнитного крепления с технологией быстрого демонтажа',
+				src1: '/images/SVGs/energyefficient.svg',
+				src2: '/images/SVGs/energyefficient-white.svg',
 			},
 			{
-				src: '/images/properties/property10/img_2.png',
+				title:
+					'Разработка печатной платы и подбор электроники, согласно погодным условиям и нормам',
+				src1: '/images/SVGs/property-details.svg',
+				src2: '/images/SVGs/property-details-white.svg',
+			},
+
+			{
+				title: 'Разработка лабораторного образца',
+				src1: '/images/SVGs/smart-home-access.svg',
+				src2: '/images/SVGs/smart-home-access-white.svg',
+			},
+		],
+		technical: [
+			{
+				title: 'Единая система датчиков и базовой станции',
+				src: 'ph:aperture',
+			},
+
+			{
+				title: 'Беспроводная передача данных',
+				src: 'ph:chart-pie-slice',
+			},
+
+			{
+				title: 'Автономная работа',
+				src: 'ph:television-simple',
+			},
+
+			{
+				title: 'Уникальное крепление',
+				src: 'ph:sun',
+			},
+		],
+		images: [
+			{
+				src: '/images/properties/property12/img_2.png',
+			},
+			{
+				src: '/images/properties/property12/img_1.png',
+			},
+			{
+				src: '/images/properties/property12/img_3.png',
 			},
 		],
 	},
+
+	{
+		name: 'Металл',
+		slug: 'metall',
+		location: 'Выполнено',
+		rate: '1 месяц',
+		beds: 0,
+		baths: 0,
+		area: 0,
+		term: '1 месяц',
+		description: [
+			'Проектирование и производство единичных и мелкосерийных заказов из металла исходя из требований заказчика.',
+		],
+		tasks: [
+			{
+				title: 'Выполнение инженерных расчетов нагрузочных характеристик',
+				src1: '/images/SVGs/property-details.svg',
+				src2: '/images/SVGs/property-details-white.svg',
+			},
+
+			{
+				title: 'Построение 3Д модели всех конструктивных элементов',
+				src1: '/images/SVGs/smart-home-access.svg',
+				src2: '/images/SVGs/smart-home-access-white.svg',
+			},
+
+			{
+				title: 'Подбор материала для изготовления изделий',
+				src1: '/images/SVGs/energyefficient.svg',
+				src2: '/images/SVGs/energyefficient-white.svg',
+			},
+
+			{
+				title: 'Проектирование уникальных промышленных дизайнов',
+				src1: '/images/SVGs/property-details.svg',
+				src2: '/images/SVGs/property-details-white.svg',
+			},
+
+			{
+				title: 'Подбор технологии для массового производства',
+				src1: '/images/SVGs/smart-home-access.svg',
+				src2: '/images/SVGs/smart-home-access-white.svg',
+			},
+
+			{
+				title: 'Изготовление образцов путем чпу фрезеровки и электроэрозии',
+				src1: '/images/SVGs/energyefficient.svg',
+				src2: '/images/SVGs/energyefficient-white.svg',
+			},
+		],
+		technical: [
+			{
+				title: 'Индивидуальный подбор материалов для конкретных задач',
+				src: 'ph:aperture',
+			},
+			{
+				title: 'Изготовление путем электроэрозии',
+				src: 'ph:chart-pie-slice',
+			},
+			{
+				title: 'Постобработка дробью, гальваника, цинкование',
+				src: 'ph:television-simple',
+			},
+		],
+		images: [
+			{
+				src: '/images/properties/property14/img_1.png',
+			},
+			{
+				src: '/images/properties/property14/img_4.png',
+			},
+			{
+				src: '/images/properties/property14/img_5.png',
+			},
+			{
+				src: '/images/properties/property14/img_6.png',
+			},
+			{
+				src: '/images/properties/property14/img_5.png',
+			},
+			{
+				src: '/images/properties/property14/img_6.png',
+			},
+			{
+				src: '/images/properties/property14/img_7.png',
+			},
+			{
+				src: '/images/properties/property14/img_8.png',
+			},
+			{
+				src: '/images/properties/property14/img_9.png',
+			},
+		],
+	},
+
 	{
 		name: 'Мобильный измерительный комплекс',
 		slug: 'mobile-complex',
@@ -2023,91 +2138,84 @@ export const propertyHomes: PropertyHomes[] = [
 			{
 				src: '/images/properties/property11/img_3.png',
 			},
-			{
-				src: '/images/properties/property11/img_2.png',
-			},
 		],
 	},
 	{
-		name: 'Смарт заслон',
-		slug: 'smart-zaslon',
+		name: 'Реинжиниринг',
+		slug: 'reengineering',
 		location: 'Выполнено',
-		rate: '3 месяца',
+		rate: '2 недели',
 		beds: 0,
 		baths: 0,
 		area: 0,
-		term: '3 месяца',
+		term: '2 недели',
 		description: [
-			'Умная система контроля оконных решеток «Смарт Заслон» — это комплекс из нескольких датчиков, которые крепятся на решетку снаружи, и базовой станции, устанавливаемой внутри квартиры.',
-
-			'Разработка позволяет постоянно отслеживать состояние окон и обеспечивает безопасность детей, в том числе с особенностями развития, чьи действия могут быть непредсказуемыми. Система особенно актуальна, если ребенка опасно оставлять в комнате с приоткрытыми или полностью открытыми окнами.',
-			'При любом воздействии на решетку (как снаружи, так и изнутри) на смартфон владельца мгновенно поступает уведомление и телефонный звонок. Если датчиков установлено несколько, в оповещении будет указано, какое именно окно было затронуто.',
+			'Реинжиниринг отдельных частей готовых зарубежных установок, используемых в различных отраслях. 	Основными направлениями работы являются возможность создания узлов и элементов с улучшениями качества по требованиям заказчика, снижение времени на поставку и стоимости готового продукта.',
 		],
 		tasks: [
 			{
-				title: 'Разработка концепта устройств',
+				title: 'Написание ТЗ для формирования требования заказчика',
 				src1: '/images/SVGs/property-details.svg',
 				src2: '/images/SVGs/property-details-white.svg',
 			},
 
 			{
-				title: 'Проектирование корпуса',
+				title:
+					'3D моделирование оборудования, частей и деталей для дальнейшего производства',
 				src1: '/images/SVGs/smart-home-access.svg',
 				src2: '/images/SVGs/smart-home-access-white.svg',
 			},
 
 			{
-				title:
-					'Разработка уникального магнитного крепления с технологией быстрого демонтажа',
+				title: 'Анализ прочностных характеристик',
 				src1: '/images/SVGs/energyefficient.svg',
 				src2: '/images/SVGs/energyefficient-white.svg',
 			},
+
 			{
-				title:
-					'Разработка печатной платы и подбор электроники, согласно погодным условиям и нормам',
+				title: 'Изготовление тестовых образцов и апробация',
 				src1: '/images/SVGs/property-details.svg',
 				src2: '/images/SVGs/property-details-white.svg',
 			},
 
 			{
-				title: 'Разработка лабораторного образца',
+				title: 'Подготовка документации для мелкосерийного производства',
 				src1: '/images/SVGs/smart-home-access.svg',
 				src2: '/images/SVGs/smart-home-access-white.svg',
+			},
+
+			{
+				title: 'Самостоятельное производство',
+				src1: '/images/SVGs/energyefficient.svg',
+				src2: '/images/SVGs/energyefficient-white.svg',
 			},
 		],
 		technical: [
 			{
-				title: 'Единая система датчиков и базовой станции',
+				title: 'Индивидуальный подбор пластиков для конкретных задач',
 				src: 'ph:aperture',
 			},
-
 			{
-				title: 'Беспроводная передача данных',
+				title: 'Идентичность и точность при производстве',
 				src: 'ph:chart-pie-slice',
 			},
-
 			{
-				title: 'Автономная работа',
+				title: 'Улучшение отдельных элементов при необходимости',
 				src: 'ph:television-simple',
-			},
-
-			{
-				title: 'Уникальное крепление',
-				src: 'ph:sun',
 			},
 		],
 		images: [
 			{
-				src: '/images/properties/property12/img_2.png',
+				src: '/images/properties/property15/img_1.png',
 			},
 			{
-				src: '/images/properties/property12/img_1.png',
+				src: '/images/properties/property15/img_2.png',
 			},
 			{
-				src: '/images/properties/property12/img_3.png',
+				src: '/images/properties/property15/img_3.png',
 			},
 			{
-				src: '/images/properties/property12/img_2.png',
+				src: '/images/properties/property15/img_4.png',
 			},
 		],
 	},
@@ -2181,12 +2289,6 @@ export const propertyHomes: PropertyHomes[] = [
 		images: [
 			{
 				src: '/images/properties/property13/img_1.png',
-			},
-			{
-				src: '/images/properties/property13/img_2.png',
-			},
-			{
-				src: '/images/properties/property13/img_2.png',
 			},
 			{
 				src: '/images/properties/property13/img_2.png',
