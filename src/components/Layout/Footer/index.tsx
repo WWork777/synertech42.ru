@@ -39,7 +39,7 @@ const Footer = () => {
 							<p className='text-white/80 text-sm sm:text-base md:text-lg mb-4 sm:mb-6'>
 								Разработка и прототипирование под ключ <br /> с соблюдением всех
 								стандартов и требований <br />
-								<span> ООО "ФриДейс"</span> <br />
+								<span> ООО ФриДейс</span> <br />
 								<span> г. Кемерово, пр. Советский 9</span>
 								<br />
 								<span> ИНН: 4205411312</span>
